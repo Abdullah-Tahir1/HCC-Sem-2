@@ -1,0 +1,49 @@
+#J{
+    width: 70%;
+    height: 70%;
+    align-self: center;
+    margin-left: 16%;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    opacity: 25%;
+}
+img.blur{
+    filter: blur(1.5px);
+    box-shadow: 5px 5px 5px #f1a904;
+}
+img.saturate{
+    filter: saturate(200%);
+    box-shadow: 5px 5px 5px #ff1c4a;
+}
+img.grayscale{
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 5px white;
+}
+p{
+    font-style: italic;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow: visible;
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    background-color: darkgray;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a h1:hover{
+    font-style: italic;
+    color: white;
+}
